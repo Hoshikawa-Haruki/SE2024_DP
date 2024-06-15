@@ -2,19 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package cse.designpattern.Command;
+package cse.designpattern.CommandPattern.Commands;
 
 /**
  *
  * @author 이승환
  */
-public class Light {
+public class NoCommand implements Command {
 
-    public void on() {
-        System.out.println("켜져라 얍");
+    @Override
+    public void execute() {
     }
 
-    public void off() {
-        System.out.println("꺼져라 얍");
+    @Override
+    public void undo() {
     }
+
 }
