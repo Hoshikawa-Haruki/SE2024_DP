@@ -2,39 +2,41 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package cse.designpattern.State;
+package cse.designpattern.StatePattern;
 
 /**
  *
  * @author 이승환
  */
-public class SoldOutState implements State {
+public class SoldState implements State {
 
     GumballMachine gumBallMachine;
 
-    public SoldOutState(GumballMachine gumBallMachine) {
+    public SoldState(GumballMachine gumBallMachine) {
         this.gumBallMachine = gumBallMachine;
     }
 
     @Override
     public void insertCoin() {
-        System.out.println("검볼이 없습니다.");
-        ejectCoin();
     }
 
     @Override
     public void ejectCoin() {
-        System.out.println("동전을 반환합니다.");
     }
 
     @Override
     public void turnCrank() {
-        System.out.println("검볼이 없습니다.");
     }
 
     @Override
     public void dispense() {
-        System.out.println("검볼이 없습니다.");
+        gumBallMachine.releaseBall();
+        if (gumBallMachine.getCount() > 0) {
+            gumBallMachine.setState(gumBallMachine.getNoCoinState());
+        } else {
+            System.out.println("검볼 매진!!");
+            gumBallMachine.setState(gumBallMachine.getSoldOutState());
+        }
     }
 
 }
