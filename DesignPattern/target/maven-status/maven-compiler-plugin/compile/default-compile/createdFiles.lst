@@ -7,6 +7,7 @@ cse\designpattern\StatePattern\SoldOutState.class
 cse\designpattern\Stragegy\Defense\DfDodge.class
 cse\designpattern\Stragegy\Attack\AkShield.class
 cse\designpattern\CommandPattern\Commands\LightOnCommand.class
+cse\designpattern\FactoryMethod\SimpleFactory\PizzaStore.class
 cse\designpattern\DecoratorPattern\CondimentDecorator.class
 cse\designpattern\ObserverPattern\Observer\PressureDisplay.class
 cse\designpattern\ObserverPattern\Observer\CurrentConditionsDisplay.class
@@ -16,6 +17,7 @@ cse\designpattern\DecoratorRPG\Magician.class
 cse\designpattern\Stragegy\Attack\AkBow.class
 cse\designpattern\StatePattern\GumballMachine.class
 cse\designpattern\CommandPattern\Invoker\SimpleRemoteControl.class
+cse\designpattern\FactoryMethod\SimpleFactory\CheesePizza.class
 cse\designpattern\DecoratorRPG\Staff.class
 cse\designpattern\ObserverPattern\DisplayElement.class
 cse\designpattern\DecoratorPattern\Beverage.class
@@ -23,10 +25,14 @@ cse\designpattern\StatePattern\HasCoinState.class
 cse\designpattern\CommandPattern\Commands\LightOffCommand.class
 cse\designpattern\CommandPattern\Receiver\StereoCD.class
 cse\designpattern\DecoratorPattern\StarBuzz.class
+cse\designpattern\FactoryMethod\SimpleFactory\VeggiePizza.class
+cse\designpattern\FactoryMethod\SimpleFactory\SimplePizzaFactory.class
+cse\designpattern\FactoryMethod\SimpleFactory\TestDriver.class
 cse\designpattern\Stragegy\Defense\DfShield.class
 cse\designpattern\Stragegy\Defense\DfSword.class
 cse\designpattern\DecoratorPattern\HouseBlend.class
 cse\designpattern\StatePattern\State.class
+cse\designpattern\FactoryMethod\SimpleFactory\Pizza.class
 cse\designpattern\Stragegy\Job\Warrior.class
 cse\designpattern\DecoratorRPG\Warrior.class
 cse\designpattern\Stragegy\Job\Player.class
