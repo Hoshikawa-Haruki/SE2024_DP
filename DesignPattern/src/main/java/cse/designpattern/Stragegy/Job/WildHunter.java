@@ -5,15 +5,17 @@
 package cse.designpattern.Stragegy.Job;
 
 import cse.designpattern.Stragegy.Attack.AkBow;
-import cse.designpattern.Stragegy.Defense.DfDodge;
+import cse.designpattern.Stragegy.Defense.DfShield;
 
 /**
  *
  * @author 이승환
  */
-public class Archer extends Player { // 공격-활 방어-회피
+public class WildHunter extends Archer {
 
-    public Archer() {
-        System.out.println("나는 궁수 직업이에요");
+    public WildHunter() {
+        System.out.println("나는 와일드헌터다 야호");
+        this.attack_Behavior = new AkBow(200);
+        this.defense_Behavior = new DfShield();
     }
 }

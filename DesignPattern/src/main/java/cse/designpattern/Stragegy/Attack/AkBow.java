@@ -9,10 +9,16 @@ package cse.designpattern.Stragegy.Attack;
  * @author 이승환
  */
 public class AkBow implements Attack {
+    
+    int attackDamage;
+
+    public AkBow(int damage) {
+        this.attackDamage = damage;
+    }
 
     @Override
     public void doAttack() {
-        System.out.println("활을 쏩니다. 퓽퓽");
+        System.out.println("데미지: " + attackDamage + "활을 쏩니다. 퓽퓽");
     }
     
 }

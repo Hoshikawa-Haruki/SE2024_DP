@@ -8,6 +8,7 @@ cse\designpattern\Stragegy\Defense\DfDodge.class
 cse\designpattern\Stragegy\Attack\AkShield.class
 cse\designpattern\CommandPattern\Commands\LightOnCommand.class
 cse\designpattern\DecoratorPattern\CondimentDecorator.class
+cse\designpattern\Stragegy\Job\WildHunter.class
 cse\designpattern\ObserverPattern\Observer\PressureDisplay.class
 cse\designpattern\ObserverPattern\Observer\CurrentConditionsDisplay.class
 cse\designpattern\CommandPattern\RemoteControlTest.class
@@ -30,6 +31,7 @@ cse\designpattern\StatePattern\State.class
 cse\designpattern\Stragegy\Job\Warrior.class
 cse\designpattern\DecoratorRPG\Warrior.class
 cse\designpattern\Stragegy\Job\Player.class
+cse\designpattern\Stragegy\Job\Marksman.class
 cse\designpattern\CommandPattern\Commands\Command.class
 cse\designpattern\StatePattern\SoldState.class
 cse\designpattern\Stragegy\Attack\AkShuriken.class

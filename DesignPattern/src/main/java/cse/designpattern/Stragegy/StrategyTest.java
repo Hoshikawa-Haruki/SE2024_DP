@@ -6,9 +6,11 @@ package cse.designpattern.Stragegy;
 
 import cse.designpattern.Stragegy.Job.Archer;
 import cse.designpattern.Stragegy.Job.DoubleSword;
+import cse.designpattern.Stragegy.Job.Marksman;
 import cse.designpattern.Stragegy.Job.Ninja;
 import cse.designpattern.Stragegy.Job.Player;
 import cse.designpattern.Stragegy.Job.Warrior;
+import cse.designpattern.Stragegy.Job.WildHunter;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -24,9 +26,13 @@ public class StrategyTest {
      */
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        Player archer = new Archer();
-        archer.doAtack();
-        archer.doDefense();
+        Player WildHunter = new WildHunter();
+        WildHunter.doAtack();
+        WildHunter.doDefense();
+        
+        Player Makrsman = new Marksman();
+        Makrsman.doAtack();
+        Makrsman.doDefense();
         
 //        Player p1 = null;
 //        while (true) {

@@ -11,9 +11,12 @@ import cse.designpattern.Stragegy.Defense.DfDodge;
  *
  * @author 이승환
  */
-public class Archer extends Player { // 공격-활 방어-회피
+public class Marksman extends Archer {
 
-    public Archer() {
-        System.out.println("나는 궁수 직업이에요");
+    public Marksman() {
+        System.out.println("나는 신궁이다 쾅쾅");
+        this.attack_Behavior = new AkBow(1000);
+        this.defense_Behavior = new DfDodge();
     }
+    
 }

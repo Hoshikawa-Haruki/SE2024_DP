@@ -15,7 +15,7 @@ import cse.designpattern.Stragegy.Defense.DfShield;
 public class Warrior extends Player { //공격-칼 방어-방패
 
     public Warrior() {
-        this.attack_Behavior = new AkSword();
+        this.attack_Behavior = new AkSword(); // 계수 매개변수
         this.defense_Behavior = new DfShield();
     }
 }

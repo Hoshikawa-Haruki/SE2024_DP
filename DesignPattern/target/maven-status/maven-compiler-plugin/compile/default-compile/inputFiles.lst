@@ -3,6 +3,7 @@ C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designp
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\Stragegy\Defense\DfBow.java
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\Stragegy\Job\Archer.java
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\Stragegy\Defense\Defense.java
+C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\Stragegy\Job\Marksman.java
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\Stragegy\Attack\AkSword.java
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\StatePattern\StateTestDrive.java
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\CommandPattern\Invoker\RemoteControl.java
@@ -45,6 +46,7 @@ C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designp
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\DecoratorPattern\Mocha.java
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\Stragegy\Defense\DfSword.java
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\Stragegy\Job\Ninja.java
+C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\Stragegy\Job\WildHunter.java
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\StatePattern\HasCoinState.java
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\DecoratorPattern\Milk.java
 C:\Users\ÀÌ½ÂÈ¯\Desktop\Github\SE2024_DP\DesignPattern\src\main\java\cse\designpattern\StatePattern\SoldOutState.java
